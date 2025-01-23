@@ -1,0 +1,22 @@
+import { useState } from 'react';
+
+const use{{getHookName}} = () => {
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState<string | null>(null);
+
+    const performAction = async () => {
+        setLoading(true);
+        setError(null);
+        try {
+            // Action logic goes here
+        } catch (err) {
+            setError('An error occurred. Please try again later.');
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    return { performAction, loading, error };
+};
+
+export default use{{getHookName}};

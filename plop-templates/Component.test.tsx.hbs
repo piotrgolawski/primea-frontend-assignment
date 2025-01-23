@@ -1,0 +1,12 @@
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
+import {{getComponentName}} from './{{getComponentName}}';
+
+describe('{{getComponentName}}', () => {
+    it('should render the {{getComponentName}} component', () => {
+        render(<{{getComponentName}} />);
+        const element = screen.getByText('This is the {{getComponentName}} component');
+        expect(element).toBeInTheDocument();
+    });
+});
