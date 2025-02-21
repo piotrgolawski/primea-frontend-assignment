@@ -30,6 +30,8 @@
 - Implementing E2E tests would be highly beneficial, as they mimic user interactions more comprehensively than unit tests.
 
 ## 8. Library Usage
-- While I wrote a simple API request handler, the Unsplash-provided library ([unsplash-js](https://github.com/unsplash/unsplash-js)) could be utilized for better maintainability.  
+- While I wrote a simple API request handler, the Unsplash-provided library ([unsplash-js](https://github.com/unsplash/unsplash-js)) could be utilized for better maintainability and use of proper types.  
   However, since only one request was needed, sticking with a custom solution made sense for this project.
 
+## 9. WCAG, accesibility
+- Used html tags should be proper for text-readers, however I could think if I can do any adjustments.
